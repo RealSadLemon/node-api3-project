@@ -70,5 +70,6 @@ router.post('/:id/posts', middleware.validateUserId, middleware.validatePost, (r
     })
 });
 
+
 // do not forget to export the router
 module.exports = router;
